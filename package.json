@@ -1,6 +1,6 @@
 {
   "name": "wikidocs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Wikidocs API token generation",
   "main": "./lib/wikidocs",
   "repository": {

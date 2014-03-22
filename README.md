@@ -1,7 +1,8 @@
 wikidocs-npm
 ============
 
-Wikidocs nodeJS module
+Wikidocs nodeJS module.
+See more at [wikidocs](https://wikidocs.com/home/docs/getting-started.html)
 
 ## Installation
 ```shell
@@ -30,10 +31,10 @@ var token = wd.generateAccessToken({
 
 * **string** *options.wdAppSecret* - Wikidocs app secret
 
-* **string** *options.userId* - An application-specific id that is used to
-
-* **number** *[options.lifetime=62400]* - Token expiration time in seconds
+* **string** *options.userId* - An application-specific id that is used to tag edits so they can be associated with a particular user.
 
 * **object** *options.access* - A hash of channel - rights
 
-* **object** *[options.session]* - Custom user session attributes available
+* **number** *[options.lifetime=62400]* - Token expiration time in seconds since generation
+
+* **object** *[options.session]* - Custom user session attributes available in Wikidocs session object
