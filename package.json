@@ -1,0 +1,33 @@
+{
+  "name": "wikidocs",
+  "version": "0.0.1",
+  "description": "Wikidocs API token generation",
+  "main": "./lib/wikidocs",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wikidocs/wikidocs-npm.git"
+  },
+  "author": "evindor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wikidocs/wikidocs-npm/issues"
+  },
+  "homepage": "https://github.com/wikidocs/wikidocs-npm",
+  "dependencies": {
+    "jwt-simple": "~0.2.0"
+  },
+  "keywords": [
+    "wikidocs",
+    "WD",
+    "token"
+  ],
+  "engines": {
+    "node": ">0.8.x"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "mocha": "~1.18.2"
+  }
+}
